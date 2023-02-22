@@ -1,0 +1,22 @@
+@media (min-width: 900px) {
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 20px;
+  }
+  header {
+    .head_container {
+      padding: 0 $padding-xl;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      img {
+        width: 5rem;
+      }
+      a {
+        display: inline;
+      }
+    }
+  }
+}

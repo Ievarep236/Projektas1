@@ -1,0 +1,43 @@
+.about_us {
+  background-color: aquamarine;
+  padding: 0.5rem;
+}
+
+.hero {
+  background-color: royalblue;
+  min-height: 15rem;
+}
+.hero p {
+  color: rgb(255, 255, 255);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: black;
+}
+nav ul {
+  color: white;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 1rem;
+  height: 3.5rem;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+nav ul li {
+  color: rgb(255, 255, 255);
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li a:hover {
+  cursor: pointer;
+  color: aqua;
+}/*# sourceMappingURL=style.css.map */
