@@ -1,0 +1,5 @@
+@mixin shadow() {
+  background-color: white;
+  box-shadow: 1px 1px 5px rgb(134, 134, 134);
+  padding: $padding-xl;
+}
